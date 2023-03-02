@@ -1,11 +1,12 @@
-alert('Hello');
-console.log(window.innerWidth);
+function first() {
+	const x = 100;
 
-const x = 100;
+	function second() {
+		const y = 200;
+		console.log(x + y);
+	}
 
-clg;
-
-function run() {
-	console.log(window.innerHeight);
+	second();
 }
-run();
+
+first();
